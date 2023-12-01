@@ -1,24 +1,25 @@
 .title {
-    color: var(--NAVY-BLUE, #2E2F42);
-        font-family: Raleway;
+    color: var(--IRIS, #4D5AE5);
+        font-family: Raleway, sans-serif;
         font-size: 18px;
         font-style: normal;
         font-weight: 700;
-        line-height: 21px;
+        line-height: 1.17;
         letter-spacing: 0.54px;
         text-transform: uppercase;
         text-decoration: none;
 }
 .title-part {
-    color: var(--IRIS, #4D5AE5);
-        font-family: Raleway;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 21px;
-        letter-spacing: 0.54px;
-        text-transform: uppercase;
-        text-decoration: none;
+        color: var(--NAVY-BLUE, #2E2F42);
+            font-family: Raleway,
+                sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 1.17;
+            letter-spacing: 0.54px;
+            text-transform: uppercase;
+            text-decoration: none;
 }
 .top-line {
     font-family: Roboto;
@@ -40,6 +41,20 @@
         letter-spacing: 0.32px;
         text-decoration: none;
 }
+.adres-first {
+        color: var(--SLATE, #434455);
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0.32px;
+            text-decoration: none;
+}
+.adres-first:hover,
+.adres-first:focus {
+color: #404bbf
+}
 .main {
     background: var(--NAVY-BLUE, #2E2F42);
 }
@@ -50,12 +65,12 @@
         font-size: 56px;
         font-style: normal;
         font-weight: 700;
-        line-height: 60px;
+        line-height: 1,07;
         letter-spacing: 1.12px;
 }
 .button {
     color: var(--WHITE, #FFF);
-        font-family: Roboto;
+        font-family: Roboto, sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
@@ -64,6 +79,11 @@
         border-radius: 4px;
             background: var(--IRIS, #4D5AE5);
             box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+            cursor: pointer;
+}
+.button:hover,
+.button:focus {
+    background-color: #404bbf;
 }
 .team {
 background: #FFF;
@@ -93,7 +113,7 @@ background: #FFF;
         font-size: 36px;
         font-style: normal;
         font-weight: 700;
-        line-height: 40px;
+        line-height: 1.11;
         letter-spacing: 0.72px;
         text-transform: capitalize;
         }
@@ -136,13 +156,70 @@ background: #FFF;
 background: var(--NAVY-BLUE, #2E2F42);
         }
         .title-down {
-                    color: var(--CLOUD, #F4F4FD);
-                    font-family: Raleway;
+                    color: var(--CLOUD, #f4f4fd);
+                    font-family: Raleway, sans-serif;
                     font-size: 18px;
                     font-style: normal;
                     font-weight: 700;
-                    line-height: 21px;
+                    line-height: 1.17;
                     letter-spacing: 0.54px;
                     text-transform: uppercase;
                     text-decoration: none;
+        }
+        .wrapper {
+            font-family: "Roboto", sans-serif;
+            color: #434455;
+            background-color: #FFFFFF;
+        }
+        .top-line-first {
+            font-family: Roboto;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 24px;
+                letter-spacing: 0.32px;
+                text-decoration: none;
+                color: #2E2F42;
+        }
+        .top-line-first:hover,
+        .top-line-first:focus {
+            color: #404bbf;
+        }
+        .contacts {
+            font-style: normal;
+        }
+        .photo-point {
+            color: #FFFFFF;
+        }
+        .title-port {
+            color: var(--NAVY-BLUE, #2E2F42);
+                text-align: center;
+                font-family: Roboto;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 1.11;
+                letter-spacing: 0.72px;
+                text-transform: capitalize;
+        }
+        .portfolio {
+            background: #FFF;
+        }
+        .photo-name-port {
+            color: var(--NAVY-BLUE, #2E2F42);
+                font-family: Roboto;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 1.2;
+                letter-spacing: 0.4px;
+        }
+        .photo-text-port {
+            color: var(--SLATE, #434455);
+                font-family: Roboto;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 1.5;
+                letter-spacing: 0.32px;
         }
